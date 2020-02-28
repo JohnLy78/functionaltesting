@@ -1,0 +1,476 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results.</title>
+<style type="text/css">
+      body {
+        font:normal 68% verdana,arial,helvetica;
+        color:#000000;
+      }
+      table tr td, table tr th {
+          font-size: 68%;
+      }
+      table.details tr th{
+        font-weight: bold;
+        text-align:left;
+        background:#a6caf0;
+      }
+      table.details tr td{
+        background:#eeeee0;
+      }
+
+      p {
+        line-height:1.5em;
+        margin-top:0.5em; margin-bottom:1.0em;
+      }
+      h1 {
+        margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+      }
+      h2 {
+        margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+      }
+      h3 {
+        margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+      }
+      h4 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h5 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h6 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      .Error {
+        font-weight:bold; color:red;
+      }
+      .Failure {
+        font-weight:bold; color:purple;
+      }
+      .Properties {
+        text-align:right;
+      }
+      </style>
+<script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['.LeanFtTest'] = new Array();
+    
+        cur['ant.core.lib'] = 'C:\\Eclipse\\eclipse\\plugins\\org.apache.ant_1.10.5.v20190526-1402\\lib\\ant.jar';
+    
+        cur['ant.file'] = 'C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32\\build.xml';
+    
+        cur['ant.file.LeanFT JavaApp'] = 'C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32\\build.xml';
+    
+        cur['ant.file.type.LeanFT JavaApp'] = 'file';
+    
+        cur['ant.home'] = 'C:\\Eclipse\\eclipse\\plugins\\org.apache.ant_1.10.5.v20190526-1402';
+    
+        cur['ant.java.version'] = '1.8';
+    
+        cur['ant.library.dir'] = 'C:\\Eclipse\\eclipse\\plugins\\org.apache.ant_1.10.5.v20190526-1402\\lib';
+    
+        cur['ant.project.invoked-targets'] = 'runTests';
+    
+        cur['ant.project.name'] = 'LeanFT JavaApp';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.5 compiled on July 10 2018';
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['basedir'] = 'C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32';
+    
+        cur['bin'] = 'build';
+    
+        cur['buildlib'] = 'buildlib';
+    
+        cur['file.encoding'] = 'Cp1252';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32\\output\\Leanft.jar;C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32\\output\\junit.jar;C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32\\output\\org.hamcrest.core_1.3.0.v20180420-1519.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.common.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.cucumberv1.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.cucumberv4.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.report.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.reportbuilder-standalone.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.sdk-javadoc.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.sdk-standalone.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.unittesting.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.verifications.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\aopalliance-repackaged-2.5.0-b30.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\commons-cli-1.2.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\commons-codec-1.10.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\commons-collections4-4.1.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\commons-io-2.4.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\commons-lang3-3.5.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\commons-logging-1.1.3.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\gson-2.8.1.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\hk2-api-2.5.0-b30.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\hk2-locator-2.5.0-b30.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\hk2-utils-2.5.0-b30.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\hppc-0.7.1.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\httpasyncclient-4.1.3.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\httpclient-4.5.3.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\httpcore-4.4.10.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\httpcore-nio-4.4.6.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\httpmime-4.5.6.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\jackson-annotations-2.9.8.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\jackson-core-2.9.8.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\jackson-databind-2.9.8.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\javassist-3.18.1-GA.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\javax.annotation-api-1.2.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\javax.inject-2.5.0-b30.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\javax.servlet-api-3.1.0.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\javax.ws.rs-api-2.0.1.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\jcl-over-slf4j-1.7.25.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\jersey-common-2.25.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\jersey-guava-2.25.1.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\jul-to-slf4j-1.7.25.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\log4j-api-2.8.2.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\log4j-core-2.8.2.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\log4j-slf4j-impl-2.8.2.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\osgi-resource-locator-1.0.1.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\slf4j-api-1.7.25.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\snowflake-1.1.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\spring-aop-4.3.20.RELEASE.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\spring-beans-4.3.20.RELEASE.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\spring-boot-starter-log4j2-1.5.17.RELEASE.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\spring-context-4.3.20.RELEASE.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\spring-core-4.3.20.RELEASE.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\spring-expression-4.3.20.RELEASE.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\sv-lab-client-all-5.1.0-javadoc.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\sv-lab-client-all-5.1.0.jar;C:\\Eclipse\\eclipse\\plugins\\org.apache.ant_1.10.5.v20190526-1402\\lib\\ant-launcher.jar;C:\\Eclipse\\eclipse\\plugins\\org.apache.ant_1.10.5.v20190526-1402\\lib\\ant.jar;C:\\Eclipse\\eclipse\\plugins\\org.apache.ant_1.10.5.v20190526-1402\\lib\\ant-junit.jar;C:\\Eclipse\\eclipse\\plugins\\org.apache.ant_1.10.5.v20190526-1402\\lib\\ant-junit4.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jre1.8.0_221\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jre1.8.0_221\\lib\\ext;C:\\WINDOWS\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jre1.8.0_221';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\Admin\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jre1.8.0_221\\bin;C:\\WINDOWS\\Sun\\Java\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\bin;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Admin\\AppData\\Roaming\\npm;C:\\Program Files (x86)\\Java\\jre1.8.0_221\\\\bin;;C:\\Eclipse\\eclipse;;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\\\bin64;.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_221-b11';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_221';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.221-b11';
+    
+        cur['lib'] = 'lib';
+    
+        cur['line.separator'] = '\r\n';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['output'] = 'output';
+    
+        cur['path.separator'] = ';';
+    
+        cur['src'] = 'src';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jre1.8.0_221\\lib\\resources.jar;C:\\Program Files\\Java\\jre1.8.0_221\\lib\\rt.jar;C:\\Program Files\\Java\\jre1.8.0_221\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jre1.8.0_221\\lib\\jsse.jar;C:\\Program Files\\Java\\jre1.8.0_221\\lib\\jce.jar;C:\\Program Files\\Java\\jre1.8.0_221\\lib\\charsets.jar;C:\\Program Files\\Java\\jre1.8.0_221\\lib\\jfr.jar;C:\\Program Files\\Java\\jre1.8.0_221\\classes;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\bin\\java_shared\\classes\\jasmine.jar';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jre1.8.0_221\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner LeanFtTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32\\reports\\TEST-LeanFtTest.xml crashfile=C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32\\junitvmwatcher7785117086624845041.properties propsfile=C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32\\junit6886522621567576993.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'Cp1252';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['user.country'] = 'GB';
+    
+        cur['user.dir'] = 'C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32';
+    
+        cur['user.home'] = 'C:\\Users\\Admin';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'Admin';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = '';
+    
+        cur['user.variant'] = '';
+    
+    cur = TestCases['com.test.leanft.LeanFtTest'] = new Array();
+    
+        cur['ant.core.lib'] = 'C:\\Eclipse\\eclipse\\plugins\\org.apache.ant_1.10.5.v20190526-1402\\lib\\ant.jar';
+    
+        cur['ant.file'] = 'C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32\\build.xml';
+    
+        cur['ant.file.LeanFT JavaApp'] = 'C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32\\build.xml';
+    
+        cur['ant.file.type.LeanFT JavaApp'] = 'file';
+    
+        cur['ant.home'] = 'C:\\Eclipse\\eclipse\\plugins\\org.apache.ant_1.10.5.v20190526-1402';
+    
+        cur['ant.java.version'] = '1.8';
+    
+        cur['ant.library.dir'] = 'C:\\Eclipse\\eclipse\\plugins\\org.apache.ant_1.10.5.v20190526-1402\\lib';
+    
+        cur['ant.project.invoked-targets'] = 'runTests';
+    
+        cur['ant.project.name'] = 'LeanFT JavaApp';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.5 compiled on July 10 2018';
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['basedir'] = 'C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32';
+    
+        cur['bin'] = 'build';
+    
+        cur['buildlib'] = 'buildlib';
+    
+        cur['file.encoding'] = 'Cp1252';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32\\output\\Leanft.jar;C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32\\output\\junit.jar;C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32\\output\\org.hamcrest.core_1.3.0.v20180420-1519.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.common.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.cucumberv1.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.cucumberv4.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.report.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.reportbuilder-standalone.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.sdk-javadoc.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.sdk-standalone.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.unittesting.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\com.hp.lft.verifications.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\aopalliance-repackaged-2.5.0-b30.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\commons-cli-1.2.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\commons-codec-1.10.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\commons-collections4-4.1.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\commons-io-2.4.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\commons-lang3-3.5.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\commons-logging-1.1.3.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\gson-2.8.1.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\hk2-api-2.5.0-b30.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\hk2-locator-2.5.0-b30.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\hk2-utils-2.5.0-b30.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\hppc-0.7.1.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\httpasyncclient-4.1.3.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\httpclient-4.5.3.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\httpcore-4.4.10.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\httpcore-nio-4.4.6.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\httpmime-4.5.6.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\jackson-annotations-2.9.8.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\jackson-core-2.9.8.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\jackson-databind-2.9.8.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\javassist-3.18.1-GA.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\javax.annotation-api-1.2.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\javax.inject-2.5.0-b30.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\javax.servlet-api-3.1.0.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\javax.ws.rs-api-2.0.1.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\jcl-over-slf4j-1.7.25.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\jersey-common-2.25.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\jersey-guava-2.25.1.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\jul-to-slf4j-1.7.25.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\log4j-api-2.8.2.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\log4j-core-2.8.2.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\log4j-slf4j-impl-2.8.2.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\osgi-resource-locator-1.0.1.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\slf4j-api-1.7.25.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\snowflake-1.1.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\spring-aop-4.3.20.RELEASE.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\spring-beans-4.3.20.RELEASE.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\spring-boot-starter-log4j2-1.5.17.RELEASE.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\spring-context-4.3.20.RELEASE.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\spring-core-4.3.20.RELEASE.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\spring-expression-4.3.20.RELEASE.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\sv-lab-client-all-5.1.0-javadoc.jar;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\SDK\\Java\\sv\\sv-lab-client-all-5.1.0.jar;C:\\Eclipse\\eclipse\\plugins\\org.apache.ant_1.10.5.v20190526-1402\\lib\\ant-launcher.jar;C:\\Eclipse\\eclipse\\plugins\\org.apache.ant_1.10.5.v20190526-1402\\lib\\ant.jar;C:\\Eclipse\\eclipse\\plugins\\org.apache.ant_1.10.5.v20190526-1402\\lib\\ant-junit.jar;C:\\Eclipse\\eclipse\\plugins\\org.apache.ant_1.10.5.v20190526-1402\\lib\\ant-junit4.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jre1.8.0_221\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jre1.8.0_221\\lib\\ext;C:\\WINDOWS\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jre1.8.0_221';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\Admin\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jre1.8.0_221\\bin;C:\\WINDOWS\\Sun\\Java\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\bin;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Admin\\AppData\\Roaming\\npm;C:\\Program Files (x86)\\Java\\jre1.8.0_221\\\\bin;;C:\\Eclipse\\eclipse;;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\\\bin64;.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_221-b11';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_221';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.221-b11';
+    
+        cur['lib'] = 'lib';
+    
+        cur['line.separator'] = '\r\n';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['output'] = 'output';
+    
+        cur['path.separator'] = ';';
+    
+        cur['src'] = 'src';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jre1.8.0_221\\lib\\resources.jar;C:\\Program Files\\Java\\jre1.8.0_221\\lib\\rt.jar;C:\\Program Files\\Java\\jre1.8.0_221\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jre1.8.0_221\\lib\\jsse.jar;C:\\Program Files\\Java\\jre1.8.0_221\\lib\\jce.jar;C:\\Program Files\\Java\\jre1.8.0_221\\lib\\charsets.jar;C:\\Program Files\\Java\\jre1.8.0_221\\lib\\jfr.jar;C:\\Program Files\\Java\\jre1.8.0_221\\classes;C:\\Program Files (x86)\\Micro Focus\\Unified Functional Testing\\bin\\java_shared\\classes\\jasmine.jar';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jre1.8.0_221\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.test.leanft.LeanFtTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32\\reports\\TEST-com.test.leanft.LeanFtTest.xml crashfile=C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32\\junitvmwatcher1386594129458781552.properties propsfile=C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32\\junit6714025589756498523.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'Cp1252';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['user.country'] = 'GB';
+    
+        cur['user.dir'] = 'C:\\Users\\Admin\\eclipse-workspace\\LeanFT Win32';
+    
+        cur['user.home'] = 'C:\\Users\\Admin';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'Admin';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = '';
+    
+        cur['user.variant'] = '';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style>")
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+</head>
+<body>
+<a name="top"></a>
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org">JUnit</a> and <a href="http://ant.apache.org/ant">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>Summary</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Tests</th><th>Failures</th><th>Errors</th><th>Skipped</th><th>Success rate</th><th>Time</th>
+</tr>
+<tr valign="top" class="Error">
+<td>2</td><td>0</td><td>1</td><td>0</td><td>50.00%</td><td>7.256</td>
+</tr>
+</table>
+<table border="0" width="95%">
+<tr>
+<td style="text-align: justify;">
+        Note: <i>failures</i> are anticipated and checked for with assertions while <i>errors</i> are unanticipated.
+        </td>
+</tr>
+</table>
+<hr size="1" width="95%" align="left">
+<h2>Packages</h2>
+        Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="#"></a></td><td>1</td><td>1</td><td>0</td><td>0</td><td>0.000</td><td>2020-02-28T15:09:06</td><td>DESKTOP-3EGDK9G</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#com.test.leanft">com.test.leanft</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>7.256</td><td>2020-02-28T15:10:15</td><td>DESKTOP-3EGDK9G</td>
+</tr>
+</table>
+<hr size="1" width="95%" align="left">
+<a name=""></a>
+<h3>Package </h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="#LeanFtTest">LeanFtTest</a></td><td>1</td><td>1</td><td>0</td><td>0</td><td>0.000</td><td>2020-02-28T15:09:06</td><td>DESKTOP-3EGDK9G</td>
+</tr>
+</table>
+<a href="#top">Back to top</a>
+<p></p>
+<p></p>
+<a name="com.test.leanft"></a>
+<h3>Package com.test.leanft</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#LeanFtTest">LeanFtTest</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>7.256</td><td>2020-02-28T15:10:15</td><td>DESKTOP-3EGDK9G</td>
+</tr>
+</table>
+<a href="#top">Back to top</a>
+<p></p>
+<p></p>
+<hr size="1" width="95%" align="left">
+<a name="LeanFtTest"></a>
+<h3>TestCase LeanFtTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr class="Error">
+<td colspan="4">LeanFtTest<code>
+<br>
+<br>java.lang.ClassNotFoundException: LeanFtTest<br>	at java.net.URLClassLoader.findClass(Unknown Source)<br>	at java.lang.ClassLoader.loadClass(Unknown Source)<br>	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)<br>	at java.lang.ClassLoader.loadClass(Unknown Source)<br>	at java.lang.Class.forName0(Native Method)<br>	at java.lang.Class.forName(Unknown Source)<br>
+</code></td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('.LeanFtTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="LeanFtTest"></a>
+<h3>TestCase LeanFtTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>test</td><td>Success</td><td></td><td>2.296</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.test.leanft.LeanFtTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a>
+</body>
+</html>

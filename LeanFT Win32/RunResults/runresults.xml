@@ -1,0 +1,931 @@
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2020-02-28 15:10:19</RunStartTime>
+        <Timezone>GMT Standard Time</Timezone>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>LeanFT Report</ReportTitle>
+        <CustomFields name="Mobile Center Server:" value="http://bel-alm-test.microfocus.com:8443"/>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>Run Results</Name>
+            <Description><![CDATA[ ]]></Description>
+            <StartTime>2020-02-28 15:10:19</StartTime>
+            <Result>Passed</Result>
+            <Links/>
+            <Duration><![CDATA[00:00:02.413]]></Duration>
+            <Extension>
+                <Any>
+                    <IconKey>Run</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                </Any>
+            </Extension>
+            <Environment>
+                <OSInfo><![CDATA[Microsoft Windows NT 6.2.9200.0]]></OSInfo>
+                <HostName><![CDATA[DESKTOP-3EGDK9G]]></HostName>
+                <NumberOfCores>4</NumberOfCores>
+                <CpuInfo/>
+                <TotalMemory>8191</TotalMemory>
+                <Locale><![CDATA[en-GB]]></Locale>
+                <Timezone>GMT Standard Time</Timezone>
+                <User>Admin</User>
+            </Environment>
+            <TestedApplication/>
+            <ToolName>LeanFT</ToolName>
+            <ToolVersion><![CDATA[14.53]]></ToolVersion>
+        </Data>
+        <ReportNode type="Package">
+            <Data>
+                <Name><![CDATA[com.test.leanft]]></Name>
+                <Description><![CDATA[Version: N/A]]></Description>
+                <StartTime>2020-02-28 15:10:19</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration><![CDATA[00:00:02.296]]></Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>Package</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                </Extension>
+            </Data>
+            <ReportNode type="Class">
+                <Data>
+                    <Name><![CDATA[com.test.leanft.LeanFtTest]]></Name>
+                    <Description/>
+                    <StartTime>2020-02-28 15:10:19</StartTime>
+                    <Result>Passed</Result>
+                    <Links/>
+                    <Duration><![CDATA[00:00:02.296]]></Duration>
+                    <Extension>
+                        <Any>
+                            <IconKey>Class</IconKey>
+                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                        </Any>
+                    </Extension>
+                </Data>
+                <ReportNode type="Test">
+                    <Data>
+                        <Name>test</Name>
+                        <Description/>
+                        <StartTime>2020-02-28 15:10:19</StartTime>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Duration><![CDATA[00:00:02.296]]></Duration>
+                        <Extension>
+                            <Any>
+                                <IconKey>Test</IconKey>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Desktop.launchAut]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>testapp.exe</td></tr><tr><td class='ex-name'>arg1</td><td class='ex-value'>null</td></tr><tr><td class='ex-name'>arg2</td><td class='ex-value'>C:\Program Files (x86)\Silk\Silk Test Sample Applications\ng\sampleapplications\win32</td></tr></table>]]></Description>
+                            <StartTime>2020-02-28 15:10:19</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.000]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path/>
+                                        <Operation/>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>testapp.exe</td></tr><tr><td class='ex-name'>arg1</td><td class='ex-value'>null</td></tr><tr><td class='ex-name'>arg2</td><td class='ex-value'>C:\Program Files (x86)\Silk\Silk Test Sample Applications\ng\sampleapplications\win32</td></tr></table>]]></OperationData>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Desktop</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                        <FlowTreeNodeCaption><![CDATA[Desktop.<span class='emphasis'>launchAut</span>]]></FlowTreeNodeCaption>
+                                        <FlowTreeNodeTooltip><![CDATA[Desktop.launchAut]]></FlowTreeNodeTooltip>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[WinMenu.select]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>Control;Radio button...</td></tr></table>]]></Description>
+                            <StartTime>2020-02-28 15:10:19</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.680]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Window]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Menu</Type>
+                                                <Name><![CDATA[WinMenu]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>select</Operation>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>Control;Radio button...</td></tr></table>]]></OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[type]]></Name>
+                                                <Value><![CDATA[com.hp.lft.sdk.stdwin.MenuType.MENU]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Menu</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Window]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Menu</Type>
+                                                    <Name><![CDATA[WinMenu]]></Name>
+                                                    <IconKey>Menu</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[The second choice.set]]></Name>
+                            <Description/>
+                            <StartTime>2020-02-28 15:10:20</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.083]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Test Application]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Dialog</Type>
+                                                <Name><![CDATA[Radio Button]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.RadioButton</Type>
+                                                <Name><![CDATA[The second choice]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>set</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[text]]></Name>
+                                                <Value><![CDATA[The second choice]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[nativeClass]]></Name>
+                                                <Value><![CDATA[Button]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[indexType]]></Name>
+                                                <Value><![CDATA["location"]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>RadioButton</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Test Application]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Dialog</Type>
+                                                    <Name><![CDATA[Radio Button]]></Name>
+                                                    <IconKey>Dialog</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.RadioButton</Type>
+                                                    <Name><![CDATA[The second choice]]></Name>
+                                                    <IconKey>RadioButton</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[The third choice.set]]></Name>
+                            <Description/>
+                            <StartTime>2020-02-28 15:10:20</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.105]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Test Application]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Dialog</Type>
+                                                <Name><![CDATA[Radio Button]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.RadioButton</Type>
+                                                <Name><![CDATA[The third choice]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>set</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[text]]></Name>
+                                                <Value><![CDATA[The third choice]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[nativeClass]]></Name>
+                                                <Value><![CDATA[Button]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[indexType]]></Name>
+                                                <Value><![CDATA["location"]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>RadioButton</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Test Application]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Dialog</Type>
+                                                    <Name><![CDATA[Radio Button]]></Name>
+                                                    <IconKey>Dialog</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.RadioButton</Type>
+                                                    <Name><![CDATA[The third choice]]></Name>
+                                                    <IconKey>RadioButton</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[The custom choice.set]]></Name>
+                            <Description/>
+                            <StartTime>2020-02-28 15:10:20</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.108]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Test Application]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Dialog</Type>
+                                                <Name><![CDATA[Radio Button]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.RadioButton</Type>
+                                                <Name><![CDATA[The custom choice]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>set</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[text]]></Name>
+                                                <Value><![CDATA[The custom choice]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[nativeClass]]></Name>
+                                                <Value><![CDATA[Button]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[indexType]]></Name>
+                                                <Value><![CDATA["location"]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>RadioButton</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Test Application]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Dialog</Type>
+                                                    <Name><![CDATA[Radio Button]]></Name>
+                                                    <IconKey>Dialog</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.RadioButton</Type>
+                                                    <Name><![CDATA[The custom choice]]></Name>
+                                                    <IconKey>RadioButton</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Exit.click]]></Name>
+                            <Description/>
+                            <StartTime>2020-02-28 15:10:20</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.148]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Test Application]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Dialog</Type>
+                                                <Name><![CDATA[Radio Button]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Button</Type>
+                                                <Name><![CDATA[Exit]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[text]]></Name>
+                                                <Value><![CDATA[&Exit]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[nativeClass]]></Name>
+                                                <Value><![CDATA[Button]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[indexType]]></Name>
+                                                <Value><![CDATA["location"]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Button</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Test Application]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Dialog</Type>
+                                                    <Name><![CDATA[Radio Button]]></Name>
+                                                    <IconKey>Dialog</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Button</Type>
+                                                    <Name><![CDATA[Exit]]></Name>
+                                                    <IconKey>Button</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[WinMenu.select]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>Control;Textfield...</td></tr></table>]]></Description>
+                            <StartTime>2020-02-28 15:10:20</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.124]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Window]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Menu</Type>
+                                                <Name><![CDATA[WinMenu]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>select</Operation>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>Control;Textfield...</td></tr></table>]]></OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[type]]></Name>
+                                                <Value><![CDATA[com.hp.lft.sdk.stdwin.MenuType.MENU]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Menu</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Window]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Menu</Type>
+                                                    <Name><![CDATA[WinMenu]]></Name>
+                                                    <IconKey>Menu</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[The single line text field.setText]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>Hello</td></tr></table>]]></Description>
+                            <StartTime>2020-02-28 15:10:20</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.074]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Test Application]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Dialog</Type>
+                                                <Name><![CDATA[Text Field]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.EditField</Type>
+                                                <Name><![CDATA[The single line text field]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>setText</Operation>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>Hello</td></tr></table>]]></OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[attachedText]]></Name>
+                                                <Value><![CDATA[The single line text field]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[nativeClass]]></Name>
+                                                <Value><![CDATA[Edit]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[indexType]]></Name>
+                                                <Value><![CDATA["location"]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>EditField</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Test Application]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Dialog</Type>
+                                                    <Name><![CDATA[Text Field]]></Name>
+                                                    <IconKey>Dialog</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.EditField</Type>
+                                                    <Name><![CDATA[The single line text field]]></Name>
+                                                    <IconKey>EditField</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[The single line text field.sendKeys]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&lt;__ENTER&gt;</td></tr></table>]]></Description>
+                            <StartTime>2020-02-28 15:10:20</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.092]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Test Application]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Dialog</Type>
+                                                <Name><![CDATA[Text Field]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.EditField</Type>
+                                                <Name><![CDATA[The single line text field]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>sendKeys</Operation>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&lt;__ENTER&gt;</td></tr></table>]]></OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[attachedText]]></Name>
+                                                <Value><![CDATA[The single line text field]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[nativeClass]]></Name>
+                                                <Value><![CDATA[Edit]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[indexType]]></Name>
+                                                <Value><![CDATA["location"]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>EditField</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Test Application]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Dialog</Type>
+                                                    <Name><![CDATA[Text Field]]></Name>
+                                                    <IconKey>Dialog</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.EditField</Type>
+                                                    <Name><![CDATA[The single line text field]]></Name>
+                                                    <IconKey>EditField</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[WinMenu.select]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>Control;Static text...</td></tr></table>]]></Description>
+                            <StartTime>2020-02-28 15:10:21</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.502]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Window]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Menu</Type>
+                                                <Name><![CDATA[WinMenu]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>select</Operation>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>Control;Static text...</td></tr></table>]]></OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[type]]></Name>
+                                                <Value><![CDATA[com.hp.lft.sdk.stdwin.MenuType.MENU]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Menu</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Window]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Menu</Type>
+                                                    <Name><![CDATA[WinMenu]]></Name>
+                                                    <IconKey>Menu</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Set Label.click]]></Name>
+                            <Description/>
+                            <StartTime>2020-02-28 15:10:21</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.092]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Test Application]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Dialog</Type>
+                                                <Name><![CDATA[Static text]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Button</Type>
+                                                <Name><![CDATA[Set Label]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[text]]></Name>
+                                                <Value><![CDATA[Set Label]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[nativeClass]]></Name>
+                                                <Value><![CDATA[Button]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[indexType]]></Name>
+                                                <Value><![CDATA["location"]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Button</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Test Application]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Dialog</Type>
+                                                    <Name><![CDATA[Static text]]></Name>
+                                                    <IconKey>Dialog</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Button</Type>
+                                                    <Name><![CDATA[Set Label]]></Name>
+                                                    <IconKey>Button</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Exit.click]]></Name>
+                            <Description/>
+                            <StartTime>2020-02-28 15:10:21</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.098]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Test Application]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Dialog</Type>
+                                                <Name><![CDATA[Static text]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Button</Type>
+                                                <Name><![CDATA[Exit]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[text]]></Name>
+                                                <Value><![CDATA[&Exit]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[nativeClass]]></Name>
+                                                <Value><![CDATA[Button]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[indexType]]></Name>
+                                                <Value><![CDATA["location"]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Button</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Test Application]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Dialog</Type>
+                                                    <Name><![CDATA[Static text]]></Name>
+                                                    <IconKey>Dialog</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Button</Type>
+                                                    <Name><![CDATA[Exit]]></Name>
+                                                    <IconKey>Button</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Test Application.close]]></Name>
+                            <Description/>
+                            <StartTime>2020-02-28 15:10:21</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.066]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Test Application]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>close</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[isChildWindow]]></Name>
+                                                <Value><![CDATA[false]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[isOwnedWindow]]></Name>
+                                                <Value><![CDATA[false]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[windowClassRegExp]]></Name>
+                                                <Value><![CDATA[TestApp]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[windowTitleRegExp]]></Name>
+                                                <Value><![CDATA[Test Application]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[indexType]]></Name>
+                                                <Value><![CDATA["location"]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Window</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Test Application]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                </ReportNode>
+            </ReportNode>
+        </ReportNode>
+    </ReportNode>
+</Results>
