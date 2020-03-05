@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="LeanFT JavaApp">
+
+  <property name="src" value="src" />
+  <property name="bin" value="build" />
+  <property name="output" value="output" />
+  <property name="lib" value="lib" />
+  <property name="buildlib" value="buildlib" />
+
+ 
+      <target name="runTests">
+                  <mkdir dir="./reports"/>
+                  
+                  <junit printsummary="true" showoutput="true" fork="true">
+                    <classpath>
+                      <fileset dir="output">
+                        <include name="**/*.jar" />
+                      </fileset>
+                      <fileset dir="C:/Program Files (x86)/Micro Focus/Unified Functional Testing/SDK/Java">
+                        <include name="**/*.jar" />
+                      </fileset>
+                    </classpath>
+
+                    <formatter type="xml" />
+                          <test name="LeanFtTest" todir="./reports"/>
+                  </junit>
+
+                  <junitreport todir="./reports">
+                    <fileset dir="./reports">
+                      <include name="TEST-*.xml" />
+                    </fileset>
+                    <report format="noframes" todir="./report/html" />
+                  </junitreport>
+    	  </target> 
+
+</project>
